@@ -1,0 +1,81 @@
+section-content--our-team {
+	padding: 100px 0;
+}
+
+.section-content--our-team h2 {
+	text-transform: uppercase;
+	font-size: 2.187em;
+	letter-spacing: 1px;
+	color: #3b434c;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+
+.section-content--our-team h2 span {
+	color: #f7600e;
+}
+
+.section-content--our-team [class^=col-] > p {
+	max-width: 477px;
+	margin: 0 auto 90px;
+	line-height: 30px;
+	color: #3b434c;
+	text-align: center;
+	margin-bottom: 135px;
+}
+
+.section-content--our-team .item {
+	text-align: center;
+	max-width: 1120px;
+}
+
+.section-content--our-team .person-avatar {
+	display: inline-block;
+	height: 280px;
+	width: 230px;
+	border: 1px solid #c4c6c9;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-right: 45px;
+}
+
+
+.section-content--our-team .person-avatar.p-bg-one {
+	background: url('../img/fragment/team/person-1.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.section-content--our-team .person-avatar.p-bg-two {
+	background: url('../img/fragment/team/person-2.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.section-content--our-team .person-avatar.p-bg-three {
+	background: url('../img/fragment/team/person-3.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.section-content--our-team .person-avatar.p-bg-four {
+	background: url('../img/fragment/fragment/person-4.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+	/*.section-content--our-team  .person-avatar {
+		margin-bottom: 45px;
+	}*/
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+
+ }

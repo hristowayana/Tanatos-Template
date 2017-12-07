@@ -1,0 +1,84 @@
+footer {
+	min-height: 130px;
+	width: 100%;
+	background-color: #3b434c;
+	background-size: cover;
+}
+.text {
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.text span a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	/*margin-top: 55px;*/
+}
+
+.text .text-left {
+	float: left;
+	margin-right: 345px;
+}
+
+.text .text-left:hover { 
+	color: #fff;
+	text-decoration: none;
+}
+
+.text .text-right {
+	float: left;
+	margin-left: 345px;
+}
+
+.text .text-right:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.text .text-right span {
+	color: #cc2c45;
+	font-size: 1.3em;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+	.text .text-left {
+		width: 100%;
+		float: none;
+		text-align: center;
+		font-size: 1em;
+		margin: 0 auto;
+		margin-right: 0;
+	}
+
+	.text .text-right {
+		width: 100%;
+		font-size: 1em;
+		float: none; 
+		text-align: center;
+		margin: 0 auto;
+		margin-left: 0;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1000px) { 
+	.text .text-left { 
+		float: left;
+		margin-left: 70px;
+		margin-right: 0;
+	}
+
+	.text .text-right { 
+		float: right;
+		margin-right: 70px;
+		margin-left: 0;
+	}
+}
+
