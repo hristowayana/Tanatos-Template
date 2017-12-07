@@ -1,0 +1,178 @@
+.client-says-thumbnails {
+	margin-top: 100px;
+	padding: 105px 0; 
+	height: 495px;
+	background: url('../img/system/what_says_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.client-says-thumbnails .item .client-says-thumbnails-avatar {
+	width: 120px;
+	height: 120px;
+	border-radius: 120px;
+	margin: 0 auto 30px;
+}
+
+.client-says-thumbnails .item .client-says-thumbnails-avatar img {
+	display: block;
+	width: 100%;
+	border-radius: 120px;
+	text-align: center;
+}
+
+.client-says-thumbnails p {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-family: 'open_sansitalic';
+	font-size: 1.5626em;
+	line-height: 2.5em;
+	margin-top: 45px;
+}
+
+.client-says-thumbnails .tx-c {
+	text-align: center;
+}
+
+.client-says-thumbnails h4 {
+	font-family: 'open_sanssemibold';
+	font-size: 1.125em;
+	color: #fff;
+	line-height: 2.5em;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+#client-says {
+	max-width: 1350px;
+	margin: 0 auto;
+
+}
+
+#client-says .owl-nav   {
+	
+}
+
+#client-says .owl-nav .owl-prev {
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto auto auto 20px;
+	opacity: 0;
+	font-size: 3.3em;
+	height: 50px;
+	width: 50px;
+	transition: 0.3s;
+}
+
+#client-says .owl-nav .owl-next {
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto 20px auto auto;
+	opacity: 0;
+	font-size: 3.3em;
+	height: 50px;
+	width: 50px;
+	transition: 0.3s;
+}
+
+#client-says:hover .owl-nav .owl-next,
+#client-says:hover .owl-nav .owl-prev {
+	opacity: 1;
+}
+
+#client-says:hover .owl-nav .owl-next {
+	margin: auto 3px auto auto;
+}
+
+#client-says:hover .owl-nav .owl-prev {
+	margin: auto auto auto 3px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+	.client-says-thumbnails p {
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+		color: #fff;
+		font-family: 'open_sansitalic';
+		font-size: 1.1em;
+		line-height: 2.5em;
+		margin-top: 45px;
+	}
+
+	.client-says-thumbnails .tx-c {
+		text-align: center;
+	}
+
+	.client-says-thumbnails h4 {
+		font-family: 'open_sanssemibold';
+		font-size: 0.8em;
+		color: #fff;
+		line-height: 2.5em;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+
+	#client-says .owl-dots .owl-dot {
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		margin: 7px;
+		border-radius: 100px;
+		transition: 0.3s;
+		text-align: center;
+	}
+
+	#client-says .owl-nav .owl-prev {
+		color: #fff;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto auto auto 10px;
+		opacity: 0;
+		font-size: 1.5em;
+		height: 20px;
+		width: 20px;
+		transition: 0.3s;
+	}
+
+	#client-says .owl-nav .owl-next {
+		color: #fff;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto 10px auto auto;
+		opacity: 0;
+		font-size: 1.5em;
+		height: 20px;
+		width: 20px;
+		transition: 0.3s;
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+
+ }

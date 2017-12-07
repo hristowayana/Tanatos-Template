@@ -1,0 +1,64 @@
+.thumbnails-wrap {
+	padding: 100px 0px 110px;
+	background-color: #fff;
+}
+
+.thumbnails-wrap .thumbnails-wrap--icon {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 1px solid rgba(57, 67, 76, 0.3);
+	margin: 0 auto 30px;
+}
+
+.thumbnails-wrap .thumbnails-wrap--icon.service_one {
+	background: url('../img/fragment/service_one.png') no-repeat center center;
+}
+
+.thumbnails-wrap .thumbnails-wrap--icon.service_two {
+	background: url('../img/fragment/service_two.png') no-repeat center center;
+}
+
+.thumbnails-wrap .thumbnails-wrap--icon.service_three {
+	background: url('../img/fragment/service_three.png') no-repeat center center;
+}
+
+.thumbnails-wrap .thumbnails-wrap--icon.service_four {
+	background: url('../img/fragment/service_four.png') no-repeat center center;
+}
+
+.thumbnails-wrap .thumbnails-wrap--title {
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'open_sansregular';
+	text-transform: uppercase;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.thumbnails-wrap p {
+	font-size: 0.875em;
+	color: #3b434c;
+	text-align: center;
+	line-height: 1.62em;
+	max-width: 187px;
+	margin: 0 auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+	.thumbnails-wrap p {
+		margin-bottom: 30px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+
+ }

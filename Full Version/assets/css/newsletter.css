@@ -1,0 +1,95 @@
+.newsletter-wrap {
+	padding: 100px 0; 
+	background: url('../img/system/article_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.newsletter-wrap form {
+	max-width: 860px;
+	margin: 0 auto;
+}
+
+.newsletter-wrap form:after {
+	content:'';
+	clear: both;
+	display: block;
+}
+
+.newsletter-wrap .input-wrap {
+	float: left;
+}
+
+.newsletter-wrap .input-wrap.text {
+	width: 590px;
+	padding-right: 30px;
+}
+
+.newsletter-wrap input[type="text"] {
+	height: 50px;
+	border-radius: 9px;
+	background: #fff;
+	border: none;
+	outline: none;
+	color: #3b434c;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 35px;
+}
+
+.newsletter-wrap .input-wrap.submit {
+	width: 270px;
+}
+
+.newsletter-wrap input[type="submit"] {
+	height: 50px;
+	border-radius: 9px;
+	background: #f7600e;
+	border: none;
+	outline: none;
+	color: #fff;
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.newsletter-wrap input[type='submit']:hover {
+	background: #db700d;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+	.newsletter-wrap .input-wrap.text {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.newsletter-wrap .input-wrap.submit {
+		display: block;
+		width: 50%;
+		float: none;
+		max-width: auto;
+		margin: 0 auto;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1000px) { 
+	.newsletter-wrap .input-wrap.submit {
+		display: block;
+		width: 30%;
+		float: right;
+		max-width: auto;
+		margin-top: 55px;
+	}
+ }

@@ -1,0 +1,266 @@
+.section-content--contact {
+	padding: 100px 0; 
+	background: url('../img/system/contact_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.section-content--contact h2 {
+	text-transform: uppercase;
+	font-size: 2.187em;
+	letter-spacing: 1px;
+	color: #fff;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+
+.section-content--contact h2 span {
+	color: #f7600e;
+}
+
+.section-content--contact [class^=col-] > p {
+	max-width: 477px;
+	margin: 0 auto;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.section-content--contact form {
+	max-width: 860px;
+	margin: 0 auto;
+}
+
+.section-content--contact form:after {
+	content:'';
+	clear: both;
+	display: block;
+}
+
+.section-content--contact .input-wrap {
+	float: left;
+}
+
+.section-content--contact .input-wrap.text {
+	width: 590px;
+	padding-right: 30px;
+}
+
+.section-content--contact input[type="text"] {
+	height: 50px;
+	border-radius: 9px;
+	background: #fff;
+	border: none;
+	outline: none;
+	color: #3b434c;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 35px;
+	max-width: 400px;
+}
+
+.section-content--contact .left {
+	float: left;
+	margin-right: 17px;
+	margin-top: 95px;
+}
+
+.section-content--contact .right {
+	float: right;
+	margin-right: 35px;
+	margin-top: 95px;
+}
+
+.section-content--contact textarea {
+	width: 830px;
+	height: 195px;
+	margin-top: 30px;
+	padding: 0 35px;
+	margin-top: 30px;
+	border-radius: 9px;
+	padding-top: 15px;
+}
+
+.section-content--contact .input-wrap.submit {
+	width: 210px;
+}
+
+.section-content--contact input[type="submit"] {
+	height: 50px;
+	border-radius: 9px;
+	background: #f7600e;
+	border: none;
+	outline: none;
+	color: #fff;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 30px;
+	display: block;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.section-content--contact input[type='submit']:hover {
+	background: #db700d;
+}
+
+.hire-us--social-icons {
+	width: 830px;
+}
+
+/*Social Icons*/
+.section-content--contact .social-icons {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	float: right;
+}
+
+.section-content--contact .social-icons a {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	outline: none;
+	text-decoration: none;
+	border-radius: 100px;
+	margin-right: 14px;
+	font-size: 1.5em;
+}
+
+.section-content--contact .social-icons a:last-child {
+	margin-right: 0;
+}
+
+/*Facebook Icon*/
+
+.section-content--contact .social-icons a.fb-icon {
+	background: #205b9f;
+	padding-top: 10px;
+	transition: 0.6s;
+	box-shadow: 0 0 0 0 rgba(32, 91, 159, 0.3) , 0 0 0 0 rgba(32, 91, 159, 0.15);
+
+}
+
+.section-content--contact .social-icons a.fb-icon:hover {
+	padding-top: 10px;
+	transition: 0.6s;
+	box-shadow: 0 0 0 3px rgba(32, 91, 159, 0.3) , 0 0 0 7px rgba(32, 91, 159, 0.15);
+}
+
+/*Twitter Icon*/
+.section-content--contact .social-icons a.tw-icon {
+	background: #00ace3;
+	padding-top: 10px;
+	transition: 0.6s;
+	box-shadow: 0 0 0 0 rgba(32, 91, 159, 0.3) , 0 0 0 0 rgba(32, 91, 159, 0.15);
+}
+
+.section-content--contact .social-icons a.tw-icon:hover {
+	padding-top: 10px;
+	transition: 0.6s;
+	box-shadow: 0 0 0 3px rgba(0, 172, 227, 0.3) , 0 0 0 7px rgba(0, 172, 227, 0.15);
+}
+
+/*Google Icon*/
+.section-content--contact .social-icons a.g-icon {
+	background: #ff3921;
+	padding-top: 10px;
+	transition: 0.6s;
+	box-shadow: 0 0 0 0 rgba(32, 91, 159, 0.3) , 0 0 0 0 rgba(32, 91, 159, 0.15);
+}
+
+.section-content--contact .social-icons a.g-icon:hover {
+	padding-top: 10px;
+	transition: 0.6s;
+	box-shadow: 0 0 0 3px rgba(255, 57, 33, 0.3) , 0 0 0 7px rgba(255, 57, 33, 0.15);
+}
+
+/*Dribbble Icon*/
+.section-content--contact .social-icons a.dr-icon {
+	background: #ff72a5;
+	padding-top: 10px;
+	transition: 0.2s;
+	box-shadow: 0 0 0 0 rgba( 32, 91, 159, 0.3 ), 0 0 0 0 rgba( 32, 91, 159, 0.15 );
+}
+
+.section-content--contact .social-icons a.dr-icon:hover {
+	background: #ff72a5;
+	padding-top: 10px;
+	transition: 0.2s;
+	box-shadow: 0 0 0 3px rgba( 255, 114, 165, 0.3 ), 0 0 0 7px rgba( 255, 114, 165, 0.15 );
+}
+
+/*Behance Icon*/
+.section-content--contact .social-icons a.be-icon {
+	background: #009bd5;
+	padding-top: 10px;
+	transition: 0.2s;
+	box-shadow: 0 0 0 0 rgba(32, 91, 159, 0.3) , 0 0 0 0 rgba(32, 91, 159, 0.15);
+}
+
+.section-content--contact .social-icons a.be-icon:hover {
+	background: #009bd5;
+	padding-top: 10px;
+	transition: 0.2s;
+	box-shadow: 0 0 0 3px rgba(0, 172, 227, 0.3) , 0 0 0 7px rgba(0, 172, 227, 0.15);
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+	.section-content--contact form {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.section-content--contact .left {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 95px;
+		margin-left: 0px;
+	} 
+
+	.section-content--contact .right {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-left: 0px;
+		
+	}
+
+	.section-content--contact textarea {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-left: 0px;
+	}
+
+	.section-content--contact .hire-us--social-icons {
+		width: 100%;
+	}
+
+	.section-content--contact .input-wrap {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.section-content--contact .social-icons {
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 100%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+
+ }
